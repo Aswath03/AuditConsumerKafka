@@ -36,6 +36,7 @@ public class KafkaConsumer {
 			auditLog.setEventType(dto.getEventType());
 			auditLog.setBeforeActivity(dto.getBeforeActivity());
 			auditLog.setAfterActivity(dto.getAfterActivity());
+			auditLog.setRequestTime(dto.getRequestTime());
 			auditLog.setEntryOn(dto.getEntryOn());
 			
 			auditLogRepository.save(auditLog);

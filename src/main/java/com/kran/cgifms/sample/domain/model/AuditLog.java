@@ -35,6 +35,8 @@ public class AuditLog {
 	private String beforeActivity;
 	@Column(name = "after_activity")
 	private String afterActivity;
+	@Column(name = "request_time")
+	private Date requestTime;
 	@Column(name = "entry_on")
 	private Date entryOn;
 	

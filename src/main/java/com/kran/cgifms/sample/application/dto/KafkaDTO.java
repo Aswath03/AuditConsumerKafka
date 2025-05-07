@@ -15,5 +15,6 @@ public class KafkaDTO {
 	private String action;
 	private String beforeActivity;
 	private String afterActivity;
+	private Date requestTime;
 	private Date entryOn;
 }
